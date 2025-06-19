@@ -1,0 +1,161 @@
+.block_admin_panel{
+
+    padding-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div_buttons_admin{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding-top: 3vw;
+}
+.button_page_admin{
+    font-family: 'citric';
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    background: none;
+    border: 1px solid #FFF7F7;
+    cursor: pointer;
+    color: #FFF7F7;
+    border-radius: 0.5vw;
+    width: 20vw;
+}
+.button_page_admin:hover{
+    color: #D4BE72;
+    transition: .5s;
+}
+.div_main_add_genre{
+    padding-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+}
+.div_form_add_genre{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1vw;
+    padding-top: 2vw;
+}
+.div_genres_list{
+    padding-top: 2vw;
+    padding-left: 2vw;
+}
+.div_genre_update_input{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.div_user_control{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    padding-top: 3vw;
+    text-align: center;
+}
+
+.div_users_block{
+    padding-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3vw;
+}
+.user_name{
+    font-size: 1.5vw;
+    width: 10vw;
+}
+.div_user_block_user_control{
+    display: flex;
+    gap: 3vw;
+    width: 30vw;
+    text-align: start;
+}
+.user_none{
+    font-size: 1.5vw;
+}
+.div_users_list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+.side-panel1{
+    width: 10vw;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0.6vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+    border-radius: 0.3vw;
+    z-index: 1;
+}
+.searchBook{
+    display: flex;
+    justify-content: start;
+   
+    flex-direction: column;
+    gap: 3vw;
+}
+.div_title_admin{
+    padding-top: 3vw;
+    padding-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+.books_author_admin{
+    display: flex;
+    padding-right: 7.3vw;
+    gap: 3.6vw;
+    flex-wrap: wrap;
+}
+.div_title_admins{
+    text-align: center;
+    padding-top: 3vw;
+}
+.button_anchor{
+    border: 1px solid white;
+    border-radius: 2vw;
+    background: none;
+    color: white;
+    font-family: 'citric';
+    font-size: 1.5vw;
+    padding: 0.6vw;
+    cursor: pointer;
+}
+.button_anchor:hover{
+    color: #D4BE72;
+    transition: .5s;
+}
+.div_none_book_admin{
+    display: flex;
+    min-height: 30vw;
+
+}
+.div_buttons_update{
+    display: flex;
+    gap: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+.button_update{
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 2vw;
+    background: none;
+    color: white;
+    font-family: 'citric';
+    font-size: 1.2vw;
+    padding: 0.4vw;
+}
+.button_update:hover{
+    color: #D4BE72;
+    transition: .5s;
+}

@@ -1,0 +1,108 @@
+.loading-screenBookRead {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .star-containerBookRead {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .starBookRead {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+    animation: fallBookRead linear infinite;
+  }
+  
+  @keyframes fallBookRead {
+    to {
+      transform: translateY(100vh);
+      opacity: 0;
+    }
+  }
+  
+  /* Контейнер для прогресса */
+  .progress-containerBookRead {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Круговой индикатор */
+  .circular-progressBookRead {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .circular-progressBookRead svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bg-circleBookRead {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.1);
+    stroke-width: 8;
+  }
+  
+  .progress-circleBookRead {
+    fill: none;
+    stroke: url(#gradientBookRead);
+    stroke-width: 8;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    transition: stroke-dasharray 0.3s ease;
+  }
+  
+  .progress-textBookRead {
+   
+    color: white;
+
+  }
+  .p_progress{
+    font-size: 1.5vw;
+  }
+  /* Линейный прогресс-бар */
+  .linear-progressBookRead {
+    width: 15vw;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .progress-barBookRead {
+    height: 100%;
+    background: linear-gradient(90deg, #D4BE72);
+    transition: width 0.3s ease;
+  }
+
+
+  .read_bell {
+    width: 15vw;
+    padding-bottom: 2vw;
+    animation: bellBounce 1s ease infinite;
+  }
+  
+  @keyframes bellBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }

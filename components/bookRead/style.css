@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .background {
+    position: relative; /* Для позиционирования видео */
+      /* Задаем ширину на весь экран */
+    overflow: hidden;  /* Скрываем всё, что выступает за границы */
+  }
+  
+  .div_buttons{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    width: 100vw;
+    height: 100vh;
+  }
+  .div_left_buttons_book{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+
+    justify-content: end;
+  }
+.div_content_book_read{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+.div_chapter_book_read{
+  display: flex;
+  
+}
+.div_chapters_pages1{
+  width: 50vw;
+  display: flex;
+  justify-content: end;
+  padding-top: 8vw;
+  padding-right: 4.5vw;
+}
+.div_chapters_pages{
+  width: 20vw;
+  text-align: start;
+  padding-left: 3vw;
+  padding-top: 3vw;
+}
+.p_content_chapter{
+  font-size: 1.8vw;
+  padding-top: 4vw;
+  width: 25vw;
+  color: black;
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 1.5s ease;
+}
+
+/* Начальное состояние */
+.div_content_book_read,
+.div_chapters_pages1,
+.div_chapters_pages {
+  opacity: 1;
+}
+
+
+
+.fade-in {
+  animation: fadeIn 2s forwards; /* Плавное появление */
+}
+
+.fade-out {
+  animation: fadeOut 2s forwards; /* Плавное исчезновение */
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+      opacity: 1;
+  }
+  to {
+      opacity: 0;
+  }
+}
+.div_button_maskot{
+  width: 22vw;
+  height: 25vw;
+  position: absolute;
+  z-index: 10;
+  margin-top: 22vw;
+  margin-left: 10vw;
+  cursor: pointer;
+  
+}
+.title_chapter{
+  margin-top: 1vw;
+}
+.img_preview5{
+  border-top-left-radius: 30vw;
+  border-top-right-radius: 30vw;
+  display: block;
+
+  width: 22vw;
+  height: 35vw;
+
+  object-fit: cover;
+
+  border: 0.06vw solid #D4BE72;
+}
+.div_chapters_pages_mobile{
+  width: 50vw;
+  display: flex;
+  justify-content: end;
+  padding-top: 6vw;
+  padding-right: 4.5vw;
+}
+.tutorial_block{
+  background-color: rgba(0, 0, 0, 0.596);
+  height: 100vh;
+  position: absolute;
+  z-index: 100;
+  width: 100vw;
+}
+.div_handleBack{
+  padding-top: 2vw;
+}
+.bella_hello{
+  width: 18vw;
+  height: 20vw;
+}
+.div_dialog{
+  background-color: #121212;
+  width: 10vw;
+  padding: 1vw;
+  text-align: center;
+  border-radius: 0.6vw;
+  font-size: 1.2vw;
+  height: 3.5vw;
+  margin-top: 4vw;
+  border: 1px solid #D4BE72;
+}
+.div_hello{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  opacity: 1;
+ 
+}
+.div_hello.fade-out {
+  opacity: 0;
+  /* Дополнительно можно добавить: */
+  height: 0;
+  padding: 0;
+  margin: 0;
+  display: none;
+  transition: opacity 0.5s ease-in-out, height 0.5s 0.5s, padding 0.5s 0.5s, margin 0.5s 0.5s, display 2s;
+}
+.button_next{
+  background-color: #D4BE72;
+  border: none;
+  border-radius: 1vw;
+  padding: 0.3vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  font-size: 1.2vw;
+  font-family: 'citric';
+  color: white;
+  cursor: pointer;
+}
+.div_block_dialog{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 1vw;
+}
+.div_panel_visible{
+  background-color: rgba(240, 248, 255, 0.24);
+  width: 15vw;
+  height: 100px;
+}
+.div_panel_ride{
+  display: flex;
+  justify-content: end;
+  opacity: 1;
+}
+.div_dialog_music{
+  background-color: #121212;
+  width: 12vw;
+  padding: 1vw;
+  text-align: center;
+  border-radius: 0.6vw;
+  font-size: 1.2vw;
+  margin-top: 4vw;
+  height: 8vw;
+  border: 1px solid #D4BE72;
+}
+.div_panel_ride.fade-out {
+  opacity: 0;
+  /* Дополнительно можно добавить: */
+  height: 0;
+  padding: 0;
+  margin: 0;
+  display: none;
+  transition: opacity 0.5s ease-in-out, height 0.5s 0.5s, padding 0.5s 0.5s, margin 0.5s 0.5s,display 2s;
+}
+.div_panel_ride_chapters{
+  display: flex;
+  justify-content: end;
+  padding-top: 5.2vw;
+  opacity: 1;
+}
+.div_panel_ride_chapters.fade-out {
+  opacity: 0;
+  /* Дополнительно можно добавить: */
+  height: 0;
+  padding: 0;
+  margin: 0;
+  display: none;
+  transition: opacity 0.5s ease-in-out, height 0.5s 0.5s, padding 0.5s 0.5s, margin 0.5s 0.5s,display 2s;
+}
+.div_panel_visible_chapter{
+  background-color: rgba(240, 248, 255, 0.24);
+  width: 15vw;
+  height: 55px;
+}
+.div_mascot_angry{
+  display: flex;
+  padding-top: 22vw;
+  padding-left: 11vw;
+  transition: 1s;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+.div_angry_visible{
+  background-color: rgba(240, 248, 255, 0.24);
+  width: 22vw;
+  height: 25vw;
+}
+.div_mascot_angry.fade-out {
+  opacity: 0;
+  /* Дополнительно можно добавить: */
+  display: none;
+  transition: opacity 0.5s ease-in-out,height 0.5s 0.5s, padding 0.5s 0.5s, margin 0.5s 0.5s, display 2s;
+}
+.div_mascot_next{
+  display: flex;
+  justify-content: center;
+  padding-top: 3vw;
+}
+.div_next_visible{
+  background-color: rgba(240, 248, 255, 0.24);
+  width: 31vw;
+  height: 42vw;
+}
+.div_mascot_next.fade-out {
+  opacity: 0;
+  /* Дополнительно можно добавить: */
+  display: none;
+  transition: opacity 0.5s ease-in-out,height 0.5s 0.5s, padding 0.5s 0.5s, margin 0.5s 0.5s, display 2s;
+}
+.div_mascot_previous{
+  display: flex;
+  justify-content: center;
+  padding-top: 3vw;
+}
+.div_mascot_previous.fade-out {
+  opacity: 0;
+  /* Дополнительно можно добавить: */
+  display: none;
+  transition: opacity 0.5s ease-in-out,height 0.5s 0.5s, padding 0.5s 0.5s, margin 0.5s 0.5s, display 2s;
+}
+.div_button_next{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.button_next{
+  width: 5vw;
+  
+}
+.inputCheck{
+  width: 1vw;
+  height: 1vw;
+}
+.div_check{
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+.chapter-selector {
+
+  z-index: 1000;
+  font-family: 'citric';
+  font-size: 1.5vw;
+  
+}
+
+.selector-toggle {
+  background-color: #D4BE72;
+  border: 1px solid #121212;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15vw;
+  font-size: 1.2vw;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  font-family: 'citric';
+  transition: background-color 0.3s;
+}
+
+.selector-toggle:hover {
+  background-color: #121212;
+}
+
+.arrow {
+  transition: transform 0.3s;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+  max-height: 400px;
+  overflow-y: auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  width: 15vw;
+}
+
+.chapter-group {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.chapter-title {
+  font-weight: bold;
+  padding: 5px 0;
+  color: #121212;
+}
+
+.subchapters-list {
+  margin-left: 15px;
+}
+
+.subchapter-item {
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 2px 0;
+  font-size: 1.2vw;
+}
+
+.subchapter-item:hover {
+  background-color: #f0f5ff;
+}
+
+.subchapter-item.active {
+  background-color: #d6e4ff;
+  font-weight: bold;
+}
+.div_comment_author{
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top: 2vw;
+}
+.div_text_comment_author{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.text_author_comment{
+  font-size: 1.5vw;
+}
+.div_comment_authors{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5vw;
+  padding-bottom: 1vw;
+}
+.textarea_author{
+  height: 10vw;
+  width: 25vw;
+}
+.link_to_main{
+  width: 10vw;
+}
+.div_block_load_text{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

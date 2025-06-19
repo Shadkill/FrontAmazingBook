@@ -1,0 +1,51 @@
+.mobile-restriction-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .mobile-restriction-content {
+    max-width: 500px;
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .mobile-restriction-content h2 {
+    color: #ff4444;
+    margin-bottom: 20px;
+    font-size: 4vw;
+  }
+  
+  .mobile-restriction-content p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  .go-back-button {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  
+  }
+  
+  .go-back-button:hover {
+    background-color: #cc0000;
+  }

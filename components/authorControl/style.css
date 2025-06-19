@@ -1,0 +1,31 @@
+.div_main_update_book{
+    padding-left: 12.5vw;
+    padding-right: 12.5vw;
+}
+.form_update{
+    padding-top: 3vw;
+   
+}
+.div_block_title_update{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    padding-top: 3vw;
+}
+.div_container_image_and_input{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+}
+.div_inputs_block_update{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+    padding-top: 2vw;
+}
+.div_chapters_update{
+    padding-top: 3vw;
+}

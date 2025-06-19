@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'citric';
+    src: url(../fonts/Citrica/citricacyrillic.ttf);
+  }
+.img_ellipse_privacy{
+    width: 29vw;
+    position: absolute;
+}
+
+.gradient_div_privacy{
+    background: linear-gradient(to right,#121212 ,#202020 );
+    z-index: -2;
+
+}
+.div_privacy{
+    position: relative;
+    z-index: 1;
+    padding-left: 15vw;
+    padding-top: 5vw;
+    padding-right: 13vw;
+    
+}
+.title_privacy{
+    font-size: 5vw;
+}
+.title_bottom_privacy{
+    font-family: 'citric';
+    padding-bottom: 1vw;
+}
+.paragraph_privacy{
+    font-size: 1.6vw;
+}
+.div_content_one{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding-top: 5vw;
+}
+.ellipse_center_privacy{
+    position: absolute;
+    z-index: -1;
+    margin-left: 48.2vw;
+    width: 35vw;
+}
+.lis{
+    padding-left: 5vw;
+}
+.ellipse_bottom{
+    position: absolute;
+    z-index: -1;
+    left: -1px;
+    width: 35vw;
+}
+.paragraph_privacy1{
+    font-size: 1.6vw;
+    padding-bottom: 5vw;
+}

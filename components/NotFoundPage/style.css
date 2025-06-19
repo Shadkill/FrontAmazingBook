@@ -1,0 +1,15 @@
+.not_found_image{
+    width: 20vw;
+}
+.div_not_found{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3vw;
+}
+.div_text_not_found{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}

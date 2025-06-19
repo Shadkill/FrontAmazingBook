@@ -1,0 +1,75 @@
+.gradient_div_register{
+    background: linear-gradient(to right,#121212 ,#202020 );
+    z-index: -2;
+    padding-bottom: 5vw;
+}
+label{
+    color: white;
+    font-size: 1.2vw;
+    font-family: 'citric';
+}
+.div_button_authors{
+    margin-left: 12vw;
+}
+.div_submit{
+    display: flex;
+    gap: 1vw;
+}
+.check{
+    padding: 0vw;
+    width: 1.2vw;
+}
+.gradient_div_register1{
+    background: linear-gradient(to right,#121212 ,#202020 );
+    z-index: -2;
+    padding-bottom: 12.4vw;
+}
+.p_reg{
+    font-size: 1.1vw;
+}
+.div_auth1{
+    display: flex;
+    align-items: center;
+     flex-direction: column;
+     padding-top: 4vw;
+}
+.div_rights_polz{
+    display: none;
+}
+.div_date_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.label_avatar{
+    position: relative;
+    font-size: 1.5vw;
+}
+.div_input_update_profile{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 1vw;
+}
+.div_author_update{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.button_page_auth2{
+    font-family: 'citric';
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    background: none;
+    border: 1px solid #FFF7F7;
+    cursor: pointer;
+    color: #FFF7F7;
+    border-radius: 0.5vw;
+  }
+.button_page_auth2:hover{
+    color: #D4BE72;
+    transition: .5s;
+}

@@ -1,0 +1,142 @@
+.search_input1{
+    border: none;
+    text-align: end;
+    padding-right: 1vw;
+}
+.search_input1::placeholder{
+    text-align: end;
+    
+}
+.div_search{
+    height: 3.5vw;
+}
+.div_block_catalog{
+    padding-left: 20vw;
+    padding-bottom: 5vw;
+}
+.block_filter_catalog{
+    border: 1px solid white;
+    border-radius: 0.6vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    width: 12vw;
+    height: 3.5vw;
+    font-size: 1.5vw;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+    cursor: pointer;
+}
+.div_inputs_block_catalog{
+    display: flex;
+    gap: 2vw;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown_menu {
+    position: absolute;
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #282828;
+    z-index: 1;
+    margin-top: 0.3vw;
+    border-radius: 0.3vw;
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown_item {
+    padding: 0.5vw 1vw;
+    cursor: pointer;
+}
+.dropdown_item:hover {
+    color: #D4BE72;
+}
+.block_news{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.4vw;
+    
+}
+.div_news{
+    padding-right: 7.8vw;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 40vw;
+}
+.title_catalog{
+    font-size: 2.5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+.button_more{
+    background: none;
+    border: 1px solid #FFF7F7;
+    cursor: pointer;
+    color: #FFF7F7;
+    font-size: 1.4vw;
+    border-radius: 0.5vw;
+    font-family: 'citric';
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.button_more:hover{
+    color: #D4BE72;
+    transition: .5s;
+  
+}
+.div_button{
+    display: flex;
+    justify-content: end;
+    padding-top: 2vw;
+}
+.div_block_news_main{
+    padding-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    padding-bottom: 5vw;
+}
+.block_book_genre{
+    min-height: 40vw;
+    padding-right: 7.8vw;
+}
+.div_noneBook{
+    display: flex;
+    justify-content: center;
+}
+.p_none{
+    font-size: 2vw;
+    
+}
+.div_book{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.img_dropdawn{
+    width: 2vw;
+}
+.dropdawn1{
+        display: none;
+}
+.block_header_mobile{
+    display: none;
+}
+.footer_mobile{
+    display: none;
+}
+.block_news1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.4vw;
+}
+.div_search_items{
+    padding-right: 7.8vw;
+}

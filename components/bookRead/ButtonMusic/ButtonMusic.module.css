@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1vw;
+}
+
+.button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    font-family: inherit;
+    font-size: 16px;
+    outline: none;
+    width: 15vw;
+}
+
+.buttonPlaying {
+    background: linear-gradient(135deg,  #D4Be72);
+}
+
+.buttonStopped {
+    background: linear-gradient(135deg, #D4Be72, #D4Be72);
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.button:active {
+    transform: translateY(1px);
+}
+
+.icon {
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    white-space: nowrap;
+}
+
+.hoverEffect {
+    position: absolute;
+    inset: 0;
+    background: white;
+    opacity: 0;
+    border-radius: 50px;
+    transition: opacity 0.3s;
+}
+
+.button:hover .hoverEffect {
+    opacity: 0.1;
+}
+
+.volumeControl input {
+    width: 15vw;
+}

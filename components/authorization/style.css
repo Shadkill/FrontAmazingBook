@@ -1,0 +1,68 @@
+
+.div_auth{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    padding-top: 4vw;
+}
+.title_auth{
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 3vw;
+}
+.div_inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    align-items: center;
+}
+.div_inputs1{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    align-items: start;
+    padding-left: 15vw;
+}
+.button_page_auth{
+    font-family: 'citric';
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    background: none;
+    border: 1px solid #FFF7F7;
+    cursor: pointer;
+    color: #FFF7F7;
+    border-radius: 0.5vw;
+}
+.gradient_div_auth{
+    background: linear-gradient(to right,#121212 ,#202020 );
+    z-index: -2;
+    height: 100vh;
+}
+form{
+    text-align: center;
+}
+.link_registration{
+    font-size: 1.1vw;
+    text-decoration: underline;
+}
+.div_link{
+    padding-top: 2vw;
+}
+
+.button_page_auth:hover{
+    color: #D4BE72;
+    transition: .5s;
+  
+}
+.div_title_header_privacy{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
