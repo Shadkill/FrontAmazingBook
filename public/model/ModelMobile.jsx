@@ -169,4 +169,4 @@ export function Model({ animationAction,imagePath,chapterName,text,isChapterVisi
   )
 }
 
-useGLTF.preload('./public/model/untitled7.glb')
+useGLTF.preload('/model/untitled7.glb')
