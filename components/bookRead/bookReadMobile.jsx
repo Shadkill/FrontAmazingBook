@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { Model } from '/model/ModelMobile';
+import { Model } from '@/../public/model/ModelMobile.jsx';
 import './style.css';
 import { useNavigate, useParams } from 'react-router-dom';
 import toast from 'react-hot-toast';
