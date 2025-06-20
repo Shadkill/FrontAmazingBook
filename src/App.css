@@ -1,11 +1,11 @@
 
 @font-face {
   font-family: 'citric';
-  src: url(../fonts/Citrica/citricacyrillic.ttf);
+  src: url(./fonts/Citrica/citricacyrillic.ttf);
 }
 @font-face {
   font-family: 'nexa';
-  src: url(../fonts/Nexa/nexascript_thin.ttf);
+  src: url(./fonts/Nexa/nexascript_thin.ttf);
 }
 
 *{
